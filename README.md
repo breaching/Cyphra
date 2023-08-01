@@ -10,7 +10,6 @@ Cyphra is a basic Python payload encoder designed to enhance the stealth and eva
 - Random Encryption Keys: The system generates random encryption keys, making it difficult for signature-based anti-virus solutions to identify and block the encrypted payloads.
 - Optional Payload Compilation: Cyphra allows you to compile your encrypted payload into a standalone executable (.exe) for added convenience and portability.
 - User-Friendly CLI: With an easy-to-use command-line interface, encrypting your payloads becomes a seamless process.
-- Zero External Dependencies: Cyphra is designed to be self-contained, without the need for additional libraries or dependencies.
 
 ### Installation
 
@@ -19,6 +18,7 @@ Clone the Cyphra repository:
    ```bash
    https://github.com/breaching/Cyphra.git
    cd cyphra
+   pip install pyinstaller
    py Cyphra.py
    ```
 
